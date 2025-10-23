@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- esta configuracion solo sera utilizada para versiones de la API 31 en adelante-->
+<resources>
+<style name="LaunchTheme" parent="Theme.AppCompat.Light.NoActionBar">
+<!--    <item name="android:windowSplashScreenAnimatedIcon">@drawable/logo</item>-->
+     <item name="android:windowBackground">@drawable/launch_background</item>
+
+   <!--        <item name="android:windowSplashScreenBackground">#FFFFFF</item>-->
+<!--        <item name="android:windowSplashScreenAnimationDuration">2000</item>-->
+ 
+    </style>
+
+    <style name="NormalTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+    </style>
+</resources>
+    <!-- <style name="Theme.MyApp.SplashScreen" parent="Theme.SplashScreen">
+    <item name="windowSplashScreenBackground">@color/splash_background</item>
+    <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_background</item>
+    <item name="postSplashScreenTheme">@style/NormalTheme</item>
+        </style>-->
